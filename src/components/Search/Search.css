@@ -1,0 +1,29 @@
+.inp{
+    border-radius: 0px !important;
+    outline:  none !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 5px 0px 0px 5px !important;
+}
+
+.sear{
+    border-radius: 0px !important;
+    outline:  none !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0px 5px 5px 0px !important;
+    background: white !important;
+}
+
+.sear:hover, .sear:visited, .sear:active{
+    background: white;
+}
+
+.sear:focus{
+    /* background: rgb(163, 157, 157) !important; */
+}
+
+.sear .fa-search{
+    padding: 0px;
+    color: black !important;
+}

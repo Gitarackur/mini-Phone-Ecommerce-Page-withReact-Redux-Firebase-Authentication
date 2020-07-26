@@ -1,0 +1,77 @@
+
+
+
+.main-card{
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .main-card{
+        width: 100%;
+    }
+       
+}
+
+.btn-google {
+    background-color: #405D9D;
+    color: #fff;
+}
+
+
+
+.icon-fleld{
+    border: none !important;
+    border-radius: 0px !important;
+    border-bottom: 1px solid #0d2538 !important; 
+    background: transparent !important;
+    color: #0d2538 !important;
+}
+
+.text-field{
+    border: none !important;
+    border-radius: 0px !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #0d2538 !important;
+}
+
+.text-field:focus{
+    background: transparent !important;
+}
+
+.main-btn{
+    background-color: #0d2538 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+
+
+
+
+
+
+/*error message*/
+
+.alert_error {
+    background-color: #f95668;
+    border: 0px solid #f95668;
+    padding: 0% !important;
+}
+
+.fade_error {
+    background-color: #ffdbdb;
+    border: 0px solid #f95668;
+    padding: 0% !important;
+}
+
+.fade_error .close {
+    color: #f95668;
+    padding: 0% !important;
+}
+
+.fade_error strong {
+    color: #f95668;
+    padding: 0% !important;
+}
